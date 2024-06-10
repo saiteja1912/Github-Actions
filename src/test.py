@@ -5,8 +5,8 @@ def divide(a, b):
     return a/b
 
 def test_division():
-    divide(2, 1) == 2
+    assert divide(2, 1) == 2
     print(f'** 1st test passed **\n')
-    divide(1, 0) == 1
+    assert divide(4, 2) == 2
     print(f'** 2nd test passed **')
 test_division()
