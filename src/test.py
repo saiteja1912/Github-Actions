@@ -9,4 +9,3 @@ def test_division():
     print(f'** 1st test passed **\n')
     assert divide(4, 2) == 2
     print(f'** 2nd test passed **')
-test_division()
